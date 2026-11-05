@@ -4,7 +4,7 @@
 
 Dhaka Route Finder finds the best route between well-known places in Dhaka using search algorithms from the course: **Breadth-First Search (BFS)**, **Uniform Cost Search (UCS)** and **A\* search**. Places are nodes of a weighted graph and main roads are edges. Every road has two costs, distance (km) and travel time (min), so the user can ask for the **shortest** or the **fastest** route, and the two answers are not always the same.
 
-> Status: Week 1. The project structure is set up; the map data and the search algorithms are being added in the coming weeks.
+> Status: Week 1. The structure, the problem formulation and the designs are done (see `others/notes/`). Week 2 adds the map data, BFS, UCS, A* and the map drawing.
 
 ## Planned features
 
@@ -24,6 +24,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+Run the tests from the repository root:
+
+```bash
+python -m unittest discover -s support/tests -t .
+```
+
 ## Repository structure
 
 | Path | Contents |
@@ -32,7 +38,8 @@ python main.py
 | `requirements.txt` | Python libraries the project needs |
 | `data/` | Map data: places and roads |
 | `support/` | Search algorithms, graph loader, visualisation and experiment code |
-| `others/` | Reports, presentation slides and the demo video |
+| `support/tests/` | Unit tests for every module |
+| `others/` | Reports, slides, demo video, design notes, meeting notes and figures |
 
 ## Team
 
