@@ -1,0 +1,31 @@
+from,to,distance_km,time_min
+Uttara,Airport,5.0,12
+Airport,Banani,8.0,18
+Airport,Bashundhara R/A,7.9,18
+Bashundhara R/A,Badda,6.3,15
+Banani,Gulshan 1,2.5,10
+Banani,Mohakhali,2.5,10
+Gulshan 1,Mohakhali,2.4,14
+Gulshan 1,Badda,1.5,7
+Badda,Rampura,2.9,8
+Rampura,Malibagh,2.0,12
+Malibagh,Motijheel,2.5,14
+Rampura,Kawran Bazar,4.0,10
+Gulshan 1,Kawran Bazar,6.0,14
+Mohakhali,Farmgate,3.2,13
+Mohakhali,Agargaon,2.8,11
+Uttara,Mirpur 10,10.9,38
+Mirpur 10,Agargaon,4.3,16
+Mirpur 10,Mohammadpur,6.6,35
+Agargaon,Farmgate,3.2,13
+Mohammadpur,Dhanmondi 27,2.7,16
+Mohammadpur,Farmgate,4.5,17
+Farmgate,Dhanmondi 27,2.1,9
+Farmgate,Kawran Bazar,1.1,8
+Kawran Bazar,Dhanmondi 27,2.6,11
+Kawran Bazar,Shahbag,1.8,8
+Kawran Bazar,Malibagh,3.0,17
+Dhanmondi 27,New Market,3.6,20
+New Market,Shahbag,1.7,10
+Shahbag,Motijheel,3.2,18
+Airport,Mirpur 10,9.2,33
